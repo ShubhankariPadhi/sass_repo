@@ -1,0 +1,22 @@
+{
+  "name": "sass_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass  sass/main.scss css/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhankariPadhi/sass_repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShubhankariPadhi/sass_repo/issues"
+  },
+  "homepage": "https://github.com/ShubhankariPadhi/sass_repo#readme",
+  "dependencies": {
+    "sass": "^1.24.4"
+  }
+}
