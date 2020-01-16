@@ -1,22 +1,15 @@
 {
-  "name": "sass_repo",
+  "name": "sass_bs_example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "compile:sass":"sass  sass/main.scss css/style.css "
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ShubhankariPadhi/sass_repo.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ShubhankariPadhi/sass_repo/issues"
-  },
-  "homepage": "https://github.com/ShubhankariPadhi/sass_repo#readme",
   "dependencies": {
-    "sass": "^1.24.4"
-  }
+    "bootstrap-sass": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass":"sass --watch sass/main.scss:css/style.css sass/check1.scss:css/check1.css"
+  },
+  "author": "subhankari",
+  "license": "ISC"
 }
